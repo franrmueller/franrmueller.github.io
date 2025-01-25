@@ -14,6 +14,9 @@
             line-height: 1.6;
             background-color: #0d1117;
             color: #c9d1d9;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
 
         header {
@@ -30,6 +33,7 @@
         }
 
         main {
+            flex: 1;
             padding: 20px 10%;
         }
 
@@ -46,7 +50,15 @@
             margin: 0 0 10px;
             font-family: 'Merriweather', serif;
             font-size: 1.5rem;
-            color: #58a6ff;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .publication h3 {
+            margin: 0 0 10px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.2rem;
+            color: #c9d1d9;
         }
 
         .publication p {
@@ -68,7 +80,7 @@
             padding: 10px;
             background: #161b22;
             color: #c9d1d9;
-            position: absolute;
+            position: relative;
             width: 100%;
             bottom: 0;
         }
