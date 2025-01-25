@@ -1,7 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Publications</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400&display=swap');
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #0d1117;
+            color: #c9d1d9;
+        }
+
+        header {
+            background-color: #161b22;
+            color: #c9d1d9;
+            padding: 20px 10%;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: 'Merriweather', serif;
+            font-size: 2rem;
+        }
+
+        main {
+            padding: 20px 10%;
+        }
+
+        .publication {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .publication h2 {
+            margin: 0 0 10px;
+            font-family: 'Merriweather', serif;
+            font-size: 1.5rem;
+            color: #58a6ff;
+        }
+
+        .publication p {
+            margin: 0 0 10px;
+        }
+
+        .publication a {
+            text-decoration: none;
+            color: #58a6ff;
+            font-weight: bold;
+        }
+
+        .publication a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #161b22;
+            color: #c9d1d9;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            header, main {
+                padding: 20px 5%;
+            }
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <h1>My Publications</h1>
+    </header>
+
+    <main>
+        <div class="publication">
+            <h2>Publication Title 1</h2>
+            <p>A brief description of the first publication, highlighting its focus or findings.</p>
+            <a href="your-publication1.pdf" target="_blank">View PDF</a>
+        </div>
+
+        <div class="publication">
+            <h2>Publication Title 2</h2>
+            <p>A brief description of the second publication, highlighting its focus or findings.</p>
+            <a href="your-publication2.pdf" target="_blank">View PDF</a>
+        </div>
+
+        <div class="publication">
+            <h2>Publication Title 3</h2>
+            <p>A brief description of the third publication, highlighting its focus or findings.</p>
+            <a href="your-publication3.pdf" target="_blank">View PDF</a>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 Your Name. All rights reserved.
+    </footer>
 </body>
 </html>
